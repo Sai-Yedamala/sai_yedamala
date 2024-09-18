@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Yedamala Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h1 class="logo">Sai Yedamala</h1>
+            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <header>
+        <div class="container">
+            <h1>Sai Yedamala</h1>
+            <p>Transforming Ideas into Impactful Digital Solutions</p>
+        </div>
+    </header>
+
+    <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+
+    <section id="about">
+        <div class="container about-grid">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>I am Sai Yedamala, a Bachelor of Technology graduate in ECE (2024). My passion for technology and creativity has driven me to successfully complete various academic projects, including developing a Rapid Delivery website and creating a tool for gender identification based on characteristics. As a freelancer, I leverage these skills to help clients elevate their digital presence by offering tailored solutions in social media management, content creation, logo design, Advertising, online-presence, and static website design.</p>
+            </div>
+            <div class="about-photo">
+                <img src="images/portfolio.png" alt="Sai Yedamala">
+            </div>
+        </div>
+    </section>
+    
+    <section id="services">
+        <div class="container">
+            <h2>My Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <img src="images/Social-Media.jpg" alt="Social Media Management">
+                    <h3>Social Media Management</h3>
+                    <p>Grow your online presence with our expert social media management services.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/content-creation.jpg" alt="Content Creation">
+                    <h3>Content Creation</h3>
+                    <p>Elevate your brand with captivating content creation services.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/logo-design.jpg" alt="Logo Creation">
+                    <h3>Logo Creation</h3>
+                    <p>Craft your brand’s signature. Our expert designers create logos that captivate and connect. </p>
+                </div>
+                <div class="service-item">
+                    <img src="images/Advertising.jpg" alt="Paid Advertising">
+                    <h3>Paid Advertising</h3>
+                    <p>Maximize your reach with targeted paid advertising campaigns.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/online-presence.jpg" alt="Online Presence">
+                    <h3>Online Presence</h3>
+                    <p>Elevate Your Digital Footprint for Maximum Impact and Engagement </p>
+                </div>
+                <div class="service-item">
+                    <img src="images/web-design.jpg" alt="Website Design">
+                    <h3>Website Design</h3>
+                    <p>Create a stunning online presence with our custom web design and development services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <img src="images/rapid delivery.webp" alt="Rapid Delivery Website">
+                    <h3>Rapid Delivery Website</h3>
+                    <p>A web-based solution designed to streamline the delivery process, ensuring quick and efficient service.</p>
+                </div>
+                <div class="project-item">
+                    <img src="images/camera.webp" alt="Gender Identification Tool">
+                    <h3>Gender Identification Tool</h3>
+                    <p>An innovative tool designed to identify gender based on various characteristics, using advanced algorithms.</p>
+                </div>
+                <div class="project-item">
+                    <img src="images/maze game.webp" alt="Maze Game in Python">
+                    <h3>Maze Game in Python</h3>
+                    <p>A fun and challenging maze game coded in Python, reflecting problem-solving abilities and coding expertise.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you're interested in working together, feel free to reach out!</p>
+            <p>Email: engineersai02@gmail.com</p>
+            <p>Phone: 6309764212</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sai Yedamala. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+    
+</body>
+</html>
